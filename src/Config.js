@@ -1,4 +1,6 @@
 export default {
+  MAX_ATTACHMENT_SIZE: 5000000,
+  STRIPE_KEY: "pk_test_51H4s3FBEgCXVUzBBkgPak4q1K56aR5LmWClfxrFKH8ScP2gpj91yuFECVci7G5CO0qI4HvWRSstb9t9ANjTWpO1x00syJiO9sa",
   s3: {
     REGION: "us-west-2",
     BUCKET: "franck-notes-app-uploads"
@@ -14,3 +16,4 @@ export default {
     IDENTITY_POOL_ID: "us-west-2:600e6c1e-0ab5-4f00-9263-47157242e4f0"
   }
 };
+
